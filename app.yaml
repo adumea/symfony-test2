@@ -7,7 +7,3 @@ env_variables:
 
 runtime_config:
   document_root: public
-
-# Ensure we skip ".env", which is only for local development
-skip_files:
-  - .env #we want to skip this to make sure we don’t mess stuff up on the server
