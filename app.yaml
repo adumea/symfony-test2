@@ -4,6 +4,3 @@ env_variables:
   APP_DEBUG: true
   LOG_CHANNEL: stderr
   APP_STORAGE: /tmp
-
-runtime_config:
-  document_root: public
