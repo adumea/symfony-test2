@@ -56,7 +56,7 @@
             "@auto-scripts"
         ],
         "gcp-build": [
-            "composer install"
+            "composer dump-autoload"
         ]
     },
     "conflict": {
