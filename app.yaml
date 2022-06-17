@@ -7,9 +7,8 @@ env_variables:
   ## Set these environment variables according to your CloudSQL con
   ## DATABASE_URL: mysql://root:test123@35.192.167.103?unix_socket=/cloudsql/symfony-deployment-353414:us-central1:symfony-deployment-sql;dbname=mysql
   DB_DATABASE: mysql
-  DB_HOST: ''
+  DB_HOST: '35.192.167.103'
   DB_PORT: 3306
-  DB_SOCKET: ''
   DB_USERNAME: root
   DB_PASSWORD: tRfg34K=Tjl;=kdH
   DB_SOCKET: "/cloudsql/symfony-deployment-353414:us-central1:symfony-deployment-sql"
