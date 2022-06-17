@@ -12,7 +12,7 @@ parameters:
     database_socket: '%env(DB_SOCKET)%'
     # Set sane environment variable defaults.
     env(DB_HOST): ""
-    env(DB_PORT): 3306
+    env(DB_PORT): "3306"
     env(DB_SOCKET): ""
 
 services:
