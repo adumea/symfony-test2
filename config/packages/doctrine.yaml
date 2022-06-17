@@ -5,7 +5,7 @@ doctrine:
         port: '3306'
         dbname: 'mysql'
         user: 'root'
-        password: 'tRfg34K=Tjl;=kdH'
+        password: 'test123'
         charset: UTF8
         # add this parameter
         unix_socket: '/cloudsql/symfony-deployment-353414:us-central1:symfony-deployment-sql'
