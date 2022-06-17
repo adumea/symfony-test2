@@ -5,17 +5,19 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.2.5",
-        "google/cloud": "^0.72",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/doctrine-bundle": "^2.7",
+        "doctrine/doctrine-migrations-bundle": "^3.2",
+        "doctrine/orm": "^2.12",
+        "google/cloud": "^0.72",
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/flex": "^1.17|^2",
         "symfony/framework-bundle": "*",
+        "symfony/proxy-manager-bridge": "5.4.*",
         "symfony/runtime": "*",
         "symfony/yaml": "*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {

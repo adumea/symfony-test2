@@ -1,14 +1,15 @@
 <?php
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Doctrine\Persistence\ManagerRegistry;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
-class LuckyController extends Controller
+class LuckyController extends AbstractController
 {
-    public function number(): Response
+    public function number(ManagerRegistry $doctrine): Response
     {
-        $entityManager = $this->get('doctrine.orm.entity_manager');
+        $entityManager = $doctrine->getManager();
         if ($entityManager->getConnection()->connect()) {
             echo 'DOCTRINE WORKS';
         } else {
