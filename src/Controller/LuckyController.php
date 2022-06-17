@@ -13,7 +13,7 @@ class LuckyController extends AbstractController
         if ($entityManager->getConnection()->connect()) {
             echo 'DOCTRINE WORKS';
         } else {
-            echo $entityManager->getConnection()->connect();
+            echo 'Could not connect';
         }
         $number = random_int(0, 100);
 

@@ -14,6 +14,10 @@ parameters:
     env(DB_HOST): ""
     env(DB_PORT): "3306"
     env(DB_SOCKET): ""
+    env(DB_DATABASE): ""
+    env(DB_USERNAME): ""
+    env(DB_PASSWORD): ""
+
 
 services:
     # default configuration for services in *this* file
