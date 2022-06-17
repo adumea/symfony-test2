@@ -5,11 +5,11 @@ runtime_config:
 
 env_variables:
   ## Set these environment variables according to your CloudSQL con
-  DB_DATABASE: qr_code
+  DB_DATABASE: mysql
   DB_USERNAME: root
   DB_PASSWORD: 4XE\}~11s5Tigz^a
-  DB_SOCKET: "/cloudsql/symfony-app-353409:us-central1:symfony-app-mysql"
+  DB_SOCKET: "/cloudsql/symfony-deployment-353414:us-central1:symfony-deployment-sql"
 beta_settings:
   # for Cloud SQL, set this value to the Cloud SQL connection name,
   # e.g. "project:region:cloudsql-instance"
-  cloud_sql_instances: "symfony-app-353409:us-central1:symfony-app-mysql"
+  cloud_sql_instances: "symfony-deployment-353414:us-central1:symfony-deployment-sql"
