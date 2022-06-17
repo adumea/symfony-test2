@@ -2,3 +2,14 @@ runtime: php74
 
 runtime_config:
   document_root: public
+
+env_variables:
+  ## Set these environment variables according to your CloudSQL con
+  DB_DATABASE: qr_code
+  DB_USERNAME: root
+  DB_PASSWORD: 4XE\}~11s5Tigz^a
+  DB_SOCKET: "/cloudsql/symfony-app-353409:us-central1:symfony-app-mysql"
+beta_settings:
+  # for Cloud SQL, set this value to the Cloud SQL connection name,
+  # e.g. "project:region:cloudsql-instance"
+  cloud_sql_instances: "symfony-app-353409:us-central1:symfony-app-mysql"
