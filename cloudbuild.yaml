@@ -2,5 +2,5 @@ steps:
   - name: 'gcr.io/cloud-builders/git'
     args: [ 'fetch', '--unshallow' ]
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', 'app.yaml']
+    args: ['app', 'deploy', 'app.yaml', '--no-cache']
 timeout: '1600s'
