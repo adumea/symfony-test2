@@ -1,5 +1,8 @@
 doctrine:
     dbal:
+        env(DB_HOST): ""
+        env(DB_PORT): 3306
+        env(DB_SOCKET): ""
         driver: pdo_mysql
         host: '%database_host%'
         port: '%database_port%'
